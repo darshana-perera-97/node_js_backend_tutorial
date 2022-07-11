@@ -9,3 +9,23 @@
     "npm install express"
 06. create 'app.js' inside project folder
 07. in 'app.js'
+
+const express = require('express');
+
+const app = express();
+
+app.get("/",(req,res)=>{
+    res.send("first request");
+})
+
+app.listen(3000,()=>{
+    console.log("listern to 3000 port");
+})
+
+08. run the code 
+    type 'node app.js' in terminal
+
+09. open postman and go to link follow
+    http://localhost:3000/
+10. install nodemon
+    npm install nodemon
