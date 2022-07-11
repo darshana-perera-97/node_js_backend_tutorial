@@ -48,3 +48,27 @@ app.listen(3000,()=>{
     GET http://localhost:3000/
     in 'rest.http'
 17.  click on "Send request" in 'rest.http' file top
+
+18. app.js modified - setup the '/users' path responce
+
+const express = require('express');
+
+const app = express();
+
+app.get("/",(req,res)=>{
+    res.send("Server started");
+})
+
+//////////////////////////////////////////////////////
+app.get("/users",(req,res)=>{
+    let users = ["darshana","saluka","perera"]
+    res.send(users);
+})
+//////////////////////////////////////////////////////
+
+app.listen(3000,()=>{
+    console.log("listern to 3000 port");
+})
+
+
+19. 
