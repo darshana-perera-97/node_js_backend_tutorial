@@ -37,3 +37,14 @@ app.listen(3000,()=>{
     "test": "echo \"Error: no test specified\" && exit 1",
     "start":"nodemon app.js"  <<<<------------------------------<<<<<<<<----------------
   },
+
+13. able to auto run every change by using nodemon 
+    open termonal and type "npm start"
+
+14. install a extension for for vs code
+    search 'REST Client' in VSCODE
+15. create a file 'rest.http' [in here the name can be any. but the extension should be .http]
+16. type 
+    GET http://localhost:3000/
+    in 'rest.http'
+17.  click on "Send request" in 'rest.http' file top
