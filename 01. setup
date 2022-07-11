@@ -29,3 +29,11 @@ app.listen(3000,()=>{
     http://localhost:3000/
 10. install nodemon
     npm install nodemon
+
+11. open 'package.json'
+12. modify as follow
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"  <<<<------------------------------<<<<<<<<----------------
+  },
