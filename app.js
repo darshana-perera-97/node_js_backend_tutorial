@@ -5,3 +5,7 @@ const app = express();
 app.get("/",(req,res)=>{
     console.log("First request")
 })
+
+app.listen(3000,()=>{
+    console.log("listern to 3000 port")
+})
