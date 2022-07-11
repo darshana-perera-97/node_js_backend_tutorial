@@ -7,3 +7,4 @@
 04. give details of the backend
 05. install express 
     "npm install express"
+06. create 'app.js' inside project folder
