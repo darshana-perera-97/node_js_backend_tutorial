@@ -3,7 +3,8 @@ const express = require('express');
 const app = express();
 
 app.get("/",(req,res)=>{
-    res.send("first request!");
+    let users = ["darshana","saluka","perera"]
+    res.send(users);
 })
 
 app.listen(3000,()=>{
