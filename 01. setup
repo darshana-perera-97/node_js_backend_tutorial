@@ -1,0 +1,9 @@
+01. install node js
+02. check version of node
+    pen terminal and type "node --version"
+    or
+    pen terminal and type "npm --version"
+03. type "npm init" in terminal
+04. give details of the backend
+05. install express 
+    "npm install express"
